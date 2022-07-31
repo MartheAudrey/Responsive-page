@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  hsl(0, 100%, 74%) ;
+}
+
+main{
+    display: flex;
+    height: 100%;
+    font-family: "poppins";
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4em 10em;
+}
+
+.container .content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .content .left-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5em;
+}
+
+.container .content .left-content h2{
+    color: #fff;
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+.container .content .left-content p{
+    color: #fff;
+    font-size: 16px;
+}
+
+.container .right-content{
+    margin: 0 3em;
+    width: 90%;
+}
+
+
+.container .content .right-content .free{
+    background-color: hsl(246, 33%, 53%) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 40px;
+    margin-bottom: 10px;
+    box-shadow: 0 7px 2px hsla(248, 11%, 15%, 0.212);
+}
+
+.container .content .right-content .free p{
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.container .content .form-container .formulaire{
+    background-color: #fff;
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 7px 2px hsla(248, 11%, 15%, 0.212);
+}
+
+.container .content .form-container .formulaire .blank{
+    width: 100%;
+    position: relative;
+}
+
+.container .content .form-container .formulaire .blank input{
+    color: rgb(150, 150, 150);
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(150, 150, 150);
+    padding: 1em 2em;
+}
+
+.container .content .form-container .formulaire .blank input:focus{
+    border: 1px solid hsl(0, 100%, 74%);
+}
+
+.container .content .form-container .formulaire .blank input:focus:invalid {
+    background: url(icon-error.svg);
+    background-size: 20px;
+}
+
+.container .content .form-container .formulaire .bouton-submit{
+    width: 100%;
+    display: flex;
+    place-items: center;
+    background-color:  hsl(154, 59%, 51%);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 40px;
+    margin-bottom: 15px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.18);
+}
+
+.container .content .form-container .formulaire .bouton-submit button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #fff;
+    width: 100%;
+}
+
+.container .content .form-container .formulaire .bouton-submit:hover{
+    opacity: 0.7;
+}
+
+.container .content .form-container .formulaire .form-bottom{
+    display: flex;
+    justify-content: center;
+}
+
+.container .content .form-container .formulaire .form-bottom p{
+    color: rgb(192, 181, 181);
+}
+
+.Terms{
+    color: hsl(0, 100%, 74%);
+}
